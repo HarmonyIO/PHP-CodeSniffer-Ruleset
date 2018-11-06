@@ -1,0 +1,19 @@
+{
+    "name": "harmonyio/php-codesniffer-ruleset",
+    "description": "HarmonyIO coding standard",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pieter Hordijk",
+            "email": "info@pieterhordijk.com"
+        }
+    ],
+    "require": {
+        "slevomat/coding-standard": "^4.8",
+        "squizlabs/php_codesniffer": "^3.3"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
