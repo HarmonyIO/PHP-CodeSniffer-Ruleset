@@ -69,6 +69,21 @@
         </properties>
     </rule>
 
+    <rule ref="SlevomatCodingStandard.ControlStructures.ControlStructureSpacing">
+        <properties>
+            <property name="tokensToCheck" type="array">
+                <element value="T_CATCH"/>
+                <element value="T_DO"/>
+                <element value="T_IF"/>
+                <element value="T_SWITCH"/>
+                <element value="T_GOTO"/>
+                <element value="T_SWITCH"/>
+                <element value="T_THROW"/>
+                <element value="T_TRY"/>
+            </property>
+        </properties>
+    </rule>
+
     <rule ref="PSR2">
         <exclude name="Generic.Files.LineEndings.InvalidEOLChar"/>
     </rule>
