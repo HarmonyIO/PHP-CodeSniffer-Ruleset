@@ -22,7 +22,7 @@
         <exclude name="SlevomatCodingStandard.Commenting.DisallowOneLinePropertyDocComment"/>
     </rule>
 
-    <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses.UnusedUse">
+    <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
         <properties>
             <property name="searchAnnotations" value="true"/>
         </properties>
@@ -72,7 +72,6 @@
     <rule ref="SlevomatCodingStandard.ControlStructures.ControlStructureSpacing">
         <properties>
             <property name="tokensToCheck" type="array">
-                <element value="T_CATCH"/>
                 <element value="T_DO"/>
                 <element value="T_IF"/>
                 <element value="T_SWITCH"/>
