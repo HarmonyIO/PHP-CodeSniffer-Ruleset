@@ -32,6 +32,9 @@
     <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
         <properties>
             <property name="enableObjectTypeHint" value="true"/>
+            <property name="usefulAnnotations" type="array">
+                <element value="@dataProvider"/>
+            </property>
         </properties>
     </rule>
 
