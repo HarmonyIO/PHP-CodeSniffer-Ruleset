@@ -1,6 +1,6 @@
 {
     "name": "harmonyio/php-codesniffer-ruleset",
-    "description": "HarmonyIO coding standard",
+    "description": "HarmonyIO coding standards",
     "type": "library",
     "license": "MIT",
     "authors": [
