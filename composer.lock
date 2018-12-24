@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "197b487b3cda483136b21b35863bdd6f",
+    "content-hash": "942468c7eb1ff4e4d9d894a93ffd574d",
     "packages": [
         {
             "name": "slevomat/coding-standard",
