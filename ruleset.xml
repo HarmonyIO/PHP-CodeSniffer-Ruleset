@@ -22,8 +22,6 @@
         <exclude name="SlevomatCodingStandard.Commenting.DisallowOneLinePropertyDocComment"/>
         <exclude name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostDecrementOperator"/>
         <exclude name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostIncrementOperator"/>
-        <!-- Remove this exclude once upstream fixed bug https://github.com/slevomat/coding-standard/issues/552 -->
-        <exclude name="SlevomatCodingStandard.Classes.SuperfluousExceptionNaming.SuperfluousSuffix"/>
     </rule>
 
     <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
@@ -60,7 +58,7 @@
         </properties>
     </rule>
 
-    <rule ref="SlevomatCodingStandard.Types.EmptyLinesAroundTypeBraces">
+    <rule ref="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces">
         <properties>
             <property name="linesCountAfterOpeningBrace" value="0"/>
             <property name="linesCountBeforeClosingBrace" value="0"/>
