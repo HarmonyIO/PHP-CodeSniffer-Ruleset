@@ -37,6 +37,9 @@
             <property name="usefulAnnotations" type="array">
                 <element value="@dataProvider"/>
             </property>
+            <property name="traversableTypeHints" type="array">
+                <element value="\Amp\Promise"/>
+            </property>
         </properties>
     </rule>
 
